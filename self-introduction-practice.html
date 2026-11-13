@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <! -- タイトル -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めて作る僕の自己紹介@HTML</title>
+</head>
+<body>
+    <!-- 見出し -->
+    <h1>HTMLでの僕の自己紹介</h1>
+    <h2> <strong>基本プロフィール </strong> </h2>
+        <p>氏名・・・長谷川 翔一</p>
+        <p>年齢・・・40歳</p>
+    <h2> <strong>細かなプロフィール </strong> </h2>
+        <p>出身地・・・神奈川県</p>
+        <p>趣味・・・ボルダリング、映画鑑賞</p>
+    <h2> <strong>好きなおつまみ</strong> </h2>
+        <ul>
+            <li>蒸し鶏(サラダ感覚で食べれるのが良い)</li>
+            <li>フライドポテト(細いやつ！！)</li>
+            <li>焼き鳥(特に、ささみとせせりが好き)</li>
+        </ul>
+    <h2> <strong>好きなお酒</strong> </h2>
+        <ol>
+            <li>クラフトビール(フルーツエールが好み)</li>
+            <li>レモンサワー(奄美焼酎で割るのが好き)</li>
+            <li>泡盛ロック(好き)</li>
+        </ol>
+    <h2> <strong>今年の目標</strong> </h2>
+        <p> エンジニアとしてスキルを身に付ける（来年も継続）</p>
+        <p> 現職で仕事を一人で回せるようにする </p>
+        <p> 生成AIを用いて業務を効率化させる施策を考える </p>
+    <h2> <strong> 僕のリンク </strong> </h2>
+        <a href="https://github.com/Toys-Antiquated" target="_blank">僕のGitHubだよ</a>
+        <h2>好きな風景</h2>
+            <img src="landscape.jpg" alt="好きな風景" width="400">
+    <h2> <strong> お問い合わせ </strong> </h2>
+        <label>
+            <p><input type="text" name="username" placeholder="ユーザー名" required></p>
+            <p><select name="prefecture" required>
+                <option value="blank"> --選択してください-- </option>
+                <option value="inquiry">一般的なお問い合わせ</option>
+                <option value="requests">ご意見・ご要望</option>
+            </select></p>
+            <p><textarea name="message" rows="5" cols="40" placeholder="メッセージを入力してください" required></textarea></p>
+            <button type="submit"> 送信する </button>
+        </label>
+    </body>
+</html>
